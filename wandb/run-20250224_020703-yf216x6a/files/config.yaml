@@ -1,0 +1,55 @@
+_wandb:
+    value:
+        cli_version: 0.19.7
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 53
+                - 55
+            "3":
+                - 2
+                - 16
+                - 23
+                - 55
+            "4": 3.12.3
+            "5": 0.19.7
+            "8":
+                - 1
+                - 5
+            "12": 0.19.7
+            "13": linux-x86_64
+activation:
+    value: ReLU
+architecture:
+    value: MLP (4-16-3)
+batch_size:
+    value: 32
+dataset:
+    value: Iris
+epochs:
+    value: 500
+layers:
+    value: 3
+learning_rate:
+    value: 0.001
+loss_function:
+    value: CrossEntropyLoss
+neurons:
+    value:
+        hidden: 16
+        input: 4
+        output: 3
+non-trainable_params:
+    value: 0
+optimizer:
+    value: Adam
+trainable_params:
+    value: 131

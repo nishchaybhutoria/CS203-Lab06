@@ -1,0 +1,42 @@
+{
+  "os":  "Linux-6.11.0-17-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2025-02-23T20:37:03.635432Z",
+  "program":  "/home/nishuz/Desktop/College/AI_STT/Assignments/6/CS203-Lab06/task1.ipynb",
+  "codePath":  "task1.ipynb",
+  "git":  {
+    "remote":  "https://github.com/nishchaybhutoria/CS203-Lab06.git",
+    "commit":  "69c8f688473f3c89b0b1099350a4a768403c8c27"
+  },
+  "email":  "23110222@iitgn.ac.in",
+  "root":  "/home/nishuz/Desktop/College/AI_STT/Assignments/6/CS203-Lab06",
+  "host":  "nishuz",
+  "executable":  "/home/nishuz/Desktop/College/AI_STT/Assignments/6/CS203-Lab06/venv/bin/python",
+  "codePathLocal":  "task1.ipynb",
+  "cpu_count":  24,
+  "cpu_count_logical":  32,
+  "gpu":  "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "102610575360",
+      "used":  "71061114880"
+    }
+  },
+  "memory":  {
+    "total":  "33357266944"
+  },
+  "cpu":  {
+    "count":  24,
+    "countLogical":  32
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "memoryTotal":  "8585740288",
+      "cudaCores":  4608,
+      "architecture":  "Ada"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}
