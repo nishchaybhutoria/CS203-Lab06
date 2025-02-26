@@ -133,3 +133,5 @@ The smaller batch size allows for better generalization. The higher learning rat
 We see that Hyperband Search + Bayes Optimization leads to the best result with an accuracy of 84% and F1 score of 0.83.
 
 Random Search gives an accuracy of 74% and F1 score of 0.73. When the search space is large, Random Search can perform very poorly.
+
+We notice that Automated Search using AutoGluon is better than Manual Search. It is far more efficient and can explore a much larger parameter space faster. Hence, it can find better performing hyperparameter combinations with lesser time.
