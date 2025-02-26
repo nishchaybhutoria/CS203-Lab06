@@ -15,6 +15,8 @@ Implement a **Multi-Layer Perceptron (MLP)** model for **classification on the I
 
 ---
 
+# **Section 1: Implement a Multi-Layer Perceptron (MLP) Using the Iris Dataset**  
+
 ## **Task 1: MLP Model Implementation**  
 
 ### **Dataset Preparation**
@@ -113,3 +115,19 @@ Clearly, the last curve indicates that we trained our model for 500 epochs, at w
 ### **Training & Validation Loss Curves**
 The **training and validation loss per epoch** is plotted to analyze convergence.  
 ![Loss](images/loss.png)
+
+---
+
+# **Section 2: Hyperparameters**  
+
+## **Task 1: Hyperparameter Optimization**  
+
+We get the best result (76% accuracy, 0.67 F1 score) where batch size is 2, learning rate is 0.001, and number of epochs is 3.
+
+The smaller batch size allows for better generalization. The higher learning rate leads to faster convergence, which leads to a better accuracy. Due to the small number of epochs, there is likely a lot of noise, so conclusions should be made only after running for a larger number of epochs.
+
+## **Task 2: Automated Hyperparameter Search**  
+
+We see that Hyperband Search + Bayes Optimization leads to the best result with an accuracy of 84% and F1 score of 0.83.
+
+Random Search gives an accuracy of 74% and F1 score of 0.73. When the search space is large, Random Search can perform very poorly.
