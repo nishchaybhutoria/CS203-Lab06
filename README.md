@@ -122,6 +122,8 @@ The **training and validation loss per epoch** is plotted to analyze convergence
 
 ## **Task 1: Hyperparameter Optimization**  
 
+![image](https://github.com/user-attachments/assets/dd4c113f-2c97-434e-9833-5a285a48c8c0)
+
 We get the best result (76% accuracy, 0.67 F1 score) where batch size is 2, learning rate is 0.001, and number of epochs is 3.
 
 The smaller batch size allows for better generalization. The higher learning rate leads to faster convergence, which leads to a better accuracy. Due to the small number of epochs, there is likely a lot of noise, so conclusions should be made only after running for a larger number of epochs.
